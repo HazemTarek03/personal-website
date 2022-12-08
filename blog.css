@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 50px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    position: fixed;
+}
+
+.logo {
+    color: rgb(5, 100, 138);
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    transition: 0.5s ease;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+.navigation a{
+    text-decoration: none;
+    color: rgb(74, 10, 238);
+    font-size: 1.1em;
+    padding: 10px;
+    font-weight: 350;
+    transition: margin 2s, 0.25s ease;
+    border-radius: 100px;
+}
+
+.navigation a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    background-color: rgb(93, 93, 243);
+    color: rgb(255, 255, 255);
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url(images/4421b6759abdc8e683a24ff5e3499a32.jpg) no-repeat,
+     rgb(240, 246, 250);
+    background-size: 50%;
+    background-position: right center;
+    background-attachment: scroll;
+}
+
+.main h2{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: rgb(3, 116, 78);
+}
+
+.main h2 span{
+    display: inline-block;
+    font-size: 2.2em;
+    font-weight: 250;
+    color: rgb(12, 12, 95);
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.main h3 {
+    font-size: 1.3em;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+
+.view-btn {
+    background-color: rgb(93, 93, 243);
+    text-decoration: none;
+    margin: 15px;
+    background-color: rgb(22, 43, 75);
+    border-radius: 50px;
+    padding: 0.2778em 0.9375em;
+    color: aliceblue;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 1.5em;
+    transition: margin 2s , color 0.5s, 0.5s ease;
+}
+
+.view-btn:hover {
+    color: black;
+    transform: scale(1.2);
+    background-color: rgb(161, 161, 241);
+}
+
+.social-icons a {
+    color: rgb(8, 8, 128);
+    font-size: 1.3em;
+    padding-right: 10px;
+    padding-left: 5px;
+    display: inline-block;
+    margin-top: 15px;
+    transition: margin 2s, 0.5s ease, padding 2s;
+
+}
+
+.social-icons a:hover {
+    transform: scale(1.8);
+    margin: 0px 5px;
+    color: black;
+
+}
+
+.cards {
+    background-color: rgb(167, 236, 214);
+}
+
+.offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2em;
+    text-transform: capitalize;
+    font-weight: 350;
+    width: 100%;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    margin: 10px;
+    font-size: 1.5em;
+    border: 5px solid rgb(1, 53, 1);
+    border-radius: 20px;
+    width: 75%;
+    padding: 1.5em;
+    transition: margin 2s, 0.5s ease, padding 2s;
+    height: 250px;
+    background-color: rgb(67, 153, 132);
+    box-shadow: 0 5px 25px rgb(0, 74, 92);
+
+}
+
+.card:hover {
+    transform: scale(1.2);
+    
+}
+
+#web:hover {
+    margin-right: 2em;
+}
+
+#degital:hover {
+    margin-left: 2em;
+}
+
+.logo-title {
+    font-size: 2em;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.contact {
+    background-color: rgb(213, 206, 223);
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.2em;
+    text-transform: capitalize;
+    font-weight: 350;
+}
+
+#e-mail {
+    background-color: rgb(167, 117, 126);
+    border: 5px solid rgb(133, 75, 85);
+    box-shadow: 0 5px 25px rgb(83, 26, 88);
+
+    
+}
+
+#phone {
+    background-color: rgb(167, 117, 126);
+    border: 5px solid rgb(133, 75, 85);
+    box-shadow: 0 5px 25px rgb(83, 26, 88);
+
+}
+
+#e-mail:hover {
+    margin-right: 2em;
+}
+
+#phone:hover {
+    margin-left: 2em;
+}
+
+.footer {
+    background-color: rgb(44, 7, 87);
+    color: #f0f0f0;
+    padding: 5em;
+    justify-content: space-between;
+    display: flex;
+    height: 250px;
+    
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #3a6cf4;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+    color: antiquewhite;
+}
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
